@@ -1,4 +1,4 @@
-path: C:/Users/yoksh/projects/cauliflower_dataset
+path: path of your dataset
 
 train: images/train
 val: images/val
