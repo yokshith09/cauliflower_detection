@@ -1,0 +1,39 @@
+{
+  "image": "IMG_20250904_164143266.jpg",
+  "size": {
+    "w": 2304,
+    "h": 4096
+  },
+  "z_mm": 500,
+  "conf_used": 0.15,
+  "cauliflowers": [
+    {
+      "cls": 0,
+      "name": "cauliflower",
+      "conf": 0.953,
+      "cx": 1132,
+      "cy": 1856,
+      "z": 500,
+      "cx_norm": 0.4913,
+      "cy_norm": 0.4531,
+      "bbox": [
+        197,
+        714,
+        2226,
+        2942
+      ],
+      "area": 2655361
+    }
+  ],
+  "robot": {
+    "n_cauliflowers": 1,
+    "cauliflowers": [
+      {
+        "x": 1132,
+        "y": 1856,
+        "z": 500,
+        "conf": 0.953
+      }
+    ]
+  }
+}

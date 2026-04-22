@@ -1,0 +1,34 @@
+# Ignore everything by default
+/*
+
+# Log/weights files often found in runs
+# If they are too large, you might want to specifically ignore *.pt in runs
+# For now, we follow the request to include the folder
+
+# Whitelist allowed files and folders
+!/README.md
+!/.gitignore
+!/base_models/
+!/results/
+!/runs/
+!/scripts/
+!/test_image/
+
+# Specifically ignore massive dataset folders
+/images/
+/labels/
+/auto_images/
+/dataset.yaml
+/implementation_plan.md
+/task.md
+/walkthrough.md
+/git_push_plan.md
+/scratch/
+/temp/
+
+# Keep the base_models directory even if it has no tracked files (standard git behavior)
+!/base_models/**
+!/results/**
+!/runs/**
+!/scripts/**
+!/test_image/**
