@@ -1,0 +1,7 @@
+path: C:/Users/yoksh/projects/cauliflower_dataset
+
+train: images/train
+val: images/val
+
+names:
+  0: cauliflower
