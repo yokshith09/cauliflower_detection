@@ -48,9 +48,9 @@ While the model performs well on clear cauliflower heads, it occasionally miside
 
 ## 🚀 Usage
 
-### 1. Download the Dataset
+### 1. Download the Dataset Used to Train this Model here
 You can download the hand-annotated dataset here:
-[🔗 Insert Dataset Link Here]
+(https://www.kaggle.com/datasets/yokshithkuchipudi/cauliflower-crop-dataset)
 
 ### 2. Run Inference
 Use the dedicated inference script to test the model on your own images.
@@ -64,6 +64,6 @@ python scripts/detect_cauliflower.py --model runs/segment/train/weights/best.pt 
 
 ## 🤝 Contributing
 Contributions are highly encouraged! 
-1. **Annotate**: Pick an image from `auto_images/`, annotate it with `labelme`, and move it to `images/`.
+1. **Annotate**: Pick an image from `dataset_images/`, annotate it with `labelme`, and move it to `images/`.
 2. **Train**: Run `python scripts/train_yolo.py` to refine the model with the new data.
 3. **Submit**: Share your improved weights or new data via a Pull Request!
